@@ -1,5 +1,5 @@
 """
-WSGI config for project_name project.
+WSGI config for {{ project_name }} project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -12,7 +12,7 @@ import os
 from django.core.wsgi import get_wsgi_application
 from django.core.exceptions import ImproperlyConfigured
 
-# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'project_name.settings.development')
+# os.environ.setdefault('DJANGO_SETTINGS_MODULE', '{{ project_name }}.settings.development')
 if not os.getenv("DJANGO_SETTINGS_MODULE"):
     raise ImproperlyConfigured("Must set DJANGO_SETTINGS_MODULE varible in Environment")
 
