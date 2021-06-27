@@ -8,6 +8,7 @@ django = "*"
 django-environ = "*"
 
 [dev-packages]
+black = "*"
 
 [requires]
 python_version = "3.9"
