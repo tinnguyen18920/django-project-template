@@ -11,6 +11,7 @@ psycopg2-binary = "*"
 whitenoise = "*"
 
 [dev-packages]
+black = "*"
 
 [requires]
 python_version = "3.9"
